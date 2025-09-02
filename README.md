@@ -86,23 +86,4 @@ The **Magnus Effect** occurs when a spinning object moves through a fluid (air o
 - Demonstrated **concept + iterations** to judges and attendees  
 
 ---
-
-## 📷 Media
-
-(Add photos, diagrams, or videos of your aircraft prototype here)
-
----
-
-## 🧑‍💻 Contributors
-- **Gaurav Anand**  
-- Team Techniche & Kalam Labs Collaboration  
-
----
-
-## 📜 License
-This project is part of the **Techmaker Program**.  
-Feel free to use and adapt for educational purposes.  
-
----
-
 ⭐ If you find this project interesting, don’t forget to **star this repo**!
