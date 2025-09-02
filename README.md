@@ -1,77 +1,108 @@
-Overview
+# ✈️ Flettner Aircraft (T-Magnus Plane)
 
-The Flettner Aircraft (T-Magnus Plane) is a prototype rotor airplane developed in collaboration with Kalam Labs, Lucknow.
-It explores the concept of using the Magnus Effect for lift generation through a rotating cylinder (Flettner rotor) instead of conventional wings.
+A prototype rotor airplane developed in collaboration with **Kalam Labs, Lucknow**.  
+This project explores the concept of using the **Magnus Effect** for lift generation through a rotating cylinder (**Flettner rotor**) instead of conventional wings.
 
-This project was ideated as part of the Techmaker Program, aiming to create engaging and educational aerospace prototypes compatible with Kalam Labs' in-house KL Microcontroller.
+---
 
-What is a Flettner Aircraft?
+## 📌 Overview
 
-A Flettner airplane is a type of rotor aircraft that uses a Flettner rotor for lift.
+The **Flettner Aircraft (T-Magnus Plane)** was ideated as part of the **Techmaker Program**, aiming to create engaging and educational aerospace prototypes compatible with **Kalam Labs' in-house KL Microcontroller**.
 
-The rotor is a spinning cylinder with circular end plates.
+---
 
-As the aircraft moves forward, the Magnus Effect generates lift.
+## ❓ What is a Flettner Aircraft?
 
-📖 Learn more:
+A **Flettner airplane** is a type of rotor aircraft that uses a **Flettner rotor** for lift.
 
-Rotor airplane
+- The rotor is a **spinning cylinder** with circular end plates.  
+- As the aircraft moves forward, the **Magnus Effect** generates lift.
 
-Flettner rotor
+🔗 Learn more:
+- [Rotor airplane](https://en.wikipedia.org/wiki/Rotor_aircraft)  
+- [Flettner rotor](https://en.wikipedia.org/wiki/Flettner_rotor)  
+- [Magnus effect](https://en.wikipedia.org/wiki/Magnus_effect)  
 
-Magnus effect
+---
 
-What is the Magnus Effect?
+## 🌪️ What is the Magnus Effect?
 
-The Magnus Effect occurs when a spinning object moves through a fluid (air or liquid).
+The **Magnus Effect** occurs when a spinning object moves through a fluid (air or liquid).
 
-A lift force acts perpendicular to the direction of motion.
+- A **lift force** acts perpendicular to the direction of motion.  
+- The force depends on the **speed and direction of rotation**.  
+- Commonly observed in **sports balls, turbines, and experimental aircraft**.
 
-The force depends on the speed and direction of rotation.
+---
 
-This principle is widely observed in sports balls, turbines, and experimental aircraft.
+## 🛠️ Project Timeline & Iterations
 
-Project Timeline & Iterations
-📌 Ideation
+### 📌 Ideation
+- **September 2024**: Concept proposed to **Kalam Labs** for demonstration using their **KL Microcontroller**.  
+- Confirmed by **Kalam Labs Co-Founders** for their showcase program.  
 
-September 2024: Concept proposed to Kalam Labs for demonstration using their KL Microcontroller.
+---
 
-Confirmed by Kalam Labs Co-Founders for their showcase program.
+### 🔧 Iteration 1
+**Components:**
+- Propeller motor: `Sunsky 2200 KV`  
+- Rotor motor: `Emax 935 KV`  
+- Gear mechanism replaced with pulley-belt system  
 
-🔧 Iteration 1
+**Issue:**  
+- Rotor shaft airflow blocked by propeller → ❌ No lift generated  
 
-Components:
+---
 
-Propeller motor: Sunsky 2200 KV
+### 🔧 Iteration 2
+**Changes:**
+- Propeller repositioned **below rotor axis**  
 
-Rotor motor: Emax 935 KV
+**Issue:**  
+- Torque instability during takeoff → ❌ Uncontrollable spinning & crash  
 
-Gear mechanism replaced with pulley-belt system.
+**Fix:**  
+- Extended vertical rod + lowered battery → ✅ Better center of gravity  
 
-Issue: Rotor shaft airflow blocked by propeller → No lift generated.
+**Outcome:**  
+- Improved stability, but **lift < weight**  
 
-🔧 Iteration 2
+---
 
-Propeller repositioned below rotor axis.
+### 🔧 Iteration 3
+**Changes:**
+- Integrated with **KL Microcontroller**  
+- Reduced weight: **400g → 85g**  
 
-Issue: Torque instability during takeoff → uncontrollable spinning and crash.
+**Outcome:**  
+- More efficient system, but still **insufficient lift for flight**  
 
-Fix: Extended vertical rod + lowered battery → better center of gravity.
+---
 
-Outcome: Improved stability, but lift < weight.
+## 🎤 Showcase
 
-🔧 Iteration 3
+- 📅 **October 25, 2024**  
+- Presented at the **Techmaker Program Showcase** organized by **Kalam Labs**  
+- Demonstrated **concept + iterations** to judges and attendees  
 
-Integrated with KL Microcontroller.
+---
 
-Reduced weight from 400g → 85g.
+## 📷 Media
 
-Outcome: More efficient, but still insufficient lift for flight.
+(Add photos, diagrams, or videos of your aircraft prototype here)
 
-Showcase
+---
 
-📅 October 25, 2024
+## 🧑‍💻 Contributors
+- **Gaurav Anand**  
+- Team Techniche & Kalam Labs Collaboration  
 
-Presented at the Techmaker Program Showcase organized by Kalam Labs.
+---
 
-Demonstrated concept and iterations to judges and attendees.
+## 📜 License
+This project is part of the **Techmaker Program**.  
+Feel free to use and adapt for educational purposes.  
+
+---
+
+⭐ If you find this project interesting, don’t forget to **star this repo**!
